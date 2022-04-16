@@ -3,15 +3,24 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET - Server 2</h1>
-         <div class="form-group">
-        <p class="lead"><asp:Label ID="Label1" runat="server" Text="Session Value: "></asp:Label></p>
-             </div>
+        <h1>ASP.NET</h1>
         <div class="form-group">
-            <p><asp:Button ID="Button1" CssClass="btn btn-default" runat="server" Text="Set Session" OnClick="Button1_Click" />
-      <asp:Button ID="Button2" CssClass="btn btn-default" runat="server" Text="Get Session" OnClick="Button2_Click" /></p>
-            </div>
-        
+            <p class="lead"> Machine Name : 
+                <asp:Label ID="MachineNameId" runat="server" Text="Label"></asp:Label>
+                </p>
+        </div>
+        <div class="form-group">
+            <p class="lead">
+                <asp:Label ID="Label1" runat="server" Text="Session Value: "></asp:Label>
+            </p>
+        </div>
+        <div class="form-group">
+            <p>
+                <asp:Button ID="Button1" CssClass="btn btn-default" runat="server" Text="Set Session" OnClick="Button1_Click" />
+                <asp:Button ID="Button2" CssClass="btn btn-default" runat="server" Text="Get Session" OnClick="Button2_Click" />
+            </p>
+        </div>
+
 
     </div>
 
